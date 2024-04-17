@@ -14,7 +14,7 @@ function mimicServerCall(postId) {
       } else {
         reject(new Error('Server error')); // Simulate server error
       }
-    }, 1000); // Simulate delay (adjust as needed)
+    }, 1000); // Simulate delay 
   });
 }
 
